@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+<style>
+    /* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Style the container */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the heading */
+h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Style the login and signup links */
+.logout-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 1s ease;
+}
+
+.logout-button:hover {
+    background-color: #c0392b;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Center the links horizontally */
+.container a {
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Style the links when they are visited */
+.logout-button:visited {
+    color: #fff;
+}
+
+</style>
+<body>
+
+
+        <div class="container">
+        
+        <h2>Welcome to the infinite slider</h2>
+        
+        <a href="login.html" class="logout-button">Login</a>
+        
+        <a href="signup.html" class="logout-button">Signup</a>
+        
+        </div>
+        
+    </body>
+        
+</html>
